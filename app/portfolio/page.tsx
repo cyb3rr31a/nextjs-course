@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'Projects | Portfolio',
-    description: "The projects I've built over the years" 
+    title: 'Projects | Next.js Course',
+    description: "The projects you can build using Next.js" 
 }
 
 import Link from "next/link";
@@ -10,7 +10,7 @@ const projects = [
     { slug: "data-visualizer", title: "Data Visualizer"}
 ];
 
-export default function PortfolioList() {
+export default function ProjectList() {
     return (
         <div className="p-6">
             <h1 className="text-3xl font-bold mb-4">My Projects</h1>
